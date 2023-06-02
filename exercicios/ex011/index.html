@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imagens dinamicas</title>
+  </head>
+  <body>
+    <h1>Imagem dinamicas</h1>
+    <p>
+      Tente abrir esse site em varios dispositivos diferentes ou simplesmente
+      diminua o tamanho do navegador.
+    </p>
+    <picture>
+      <source
+        media="(max-width:750px )"
+        srcset="minhas/pequena.jpg"
+        type="image/jpg"
+      />
+      <source
+        media="(max-width:1050px )"
+        srcset="minhas/media.jpg"
+        type="image/jpg"
+      />
+      <img src="minhas/grande.jpg" alt="imagem dinamicas" />
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audio em HTML5</p>
+    <audio preload="metadata" controls loop>
+      <source src="midia/Blackbear – idfc (TikTok Remix) [Tradução_Legendado](MP3_320K).mp3" type="audio/mpeg">
+      <source src="midia/Blackbear – idfc (TikTok Remix) [Tradução_Legendado](MP3_320K).ogg" type="audio/ogg">
+      <source src="midia/Blackbear – idfc (TikTok Remix) [Tradução_Legendado](MP3_320K).wav" type="audio/wav">
+      <p>Infelizmente seu navegador nao reproduz audio. <a href="midia/Blackbear – idfc (TikTok Remix) [Tradução_Legendado](MP3_320K).mp3">mas clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+  </body>
+</html>

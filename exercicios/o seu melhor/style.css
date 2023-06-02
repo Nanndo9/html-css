@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "droid";
+    src: url(idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700px;
+    margin: 0px;
+    background-color: #9b9bdb;
+
+}
+
+header {
+    background-color: #4d4db7;
+    padding: 10px;
+    margin: 0px;
+}
+
+
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    padding: 10px;
+}
+
+.textoh {
+    color: white;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.centralizar {
+    margin: 0px 0px 0px 0px;
+}
+
+nav>a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    margin-bottom: auto;
+    font-weight: bold;
+}
+
+nav>a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-color: #9b9bdb;
+}
+
+.hts {
+    background-color: white;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 0px 70px;
+    box-shadow: 4px 4px 9px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+}
+
+.h1ar {
+    color: #7777a9;
+    text-align: left;
+    margin-left: 2px;
+    margin-top: 5px;
+    font-family: "droid";
+    text-align: justify;
+
+}
+
+p>a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p>a:hover {
+    text-decoration: underline;
+}
+
+.textoh1 {
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    text-align: left;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #7777a9;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+
+}
+
+.hts1 {
+    background-color: white;
+    margin: 0px;
+    padding: 10px;
+}
+
+aside {
+    background-color: #9b9bdb;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 0px 0px 5px 5px;
+
+}
+
+.certo {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    text-indent:200px;
+    margin: auto;
+
+
+}
+.fim {
+    text-align: center;
+    background-color: #5c5c81;
+    padding: 5px;
+    margin: 20px 0px 0px 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
