@@ -69,39 +69,54 @@ section.texto02 {
 section#img1 {
     background-image: url(imagens/background001.jpg);
     background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 
 }
+
 .fundo {
     background-color: rgba(0, 0, 0, 0.412);
-    width: 41vw;
-    
+    display: inline-block;
+    padding: 5px;
+
+
 }
+
 section#img02 {
-    background-image:url(imagens/background002.jpg);
+    background-image: url(imagens/background002.jpg);
     background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
-.texto04{
+
+.texto04 {
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
+
 footer {
     background-color: black;
     text-align: center;
 }
+
 footer>p {
     color: white;
     padding: 10px;
     font-size: 1em;
 
 }
+
 footer a {
     color: white;
     text-decoration: none;
     font-weight: bold;
     font-family: var(--fonte01);
 }
+
 footer a:hover {
     text-decoration: underline;
 }
