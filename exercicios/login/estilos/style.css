@@ -46,3 +46,29 @@ section#login>div#formulario {
     padding: 10px;
     display: block;
 }
+h1{
+    text-align: center;
+}
+p{
+    font-size: small;
+}
+
+#entrar{
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+}
+#butao{
+text-align: center;
+ width: 100%;
+}
+p>a{
+    border: #49a09d solid 2px;
+    text-align: center;
+    width: 230px;
+margin-top: 5px;
+}
