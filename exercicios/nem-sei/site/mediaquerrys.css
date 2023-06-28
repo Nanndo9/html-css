@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+    
+    section#content-mobile-fist {
+        padding: 30px 0;
+    }
+    
+
+    section#content-mobile-fist p {
+        margin-bottom: 15px;
+    }
+
+    section#content-mobile-fist a {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
